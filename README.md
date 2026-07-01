@@ -274,9 +274,9 @@ This repository is licensed under the MIT License - see the [LICENSE](LICENSE) f
 ---
  
 <div align="center">
-### 🚀 Learning Python, One Commit at a Time
+🚀 Learning Python, One Commit at a Time
  
-**Started:** April 2026 | **Status:** Active Learning | **Goal:** Python Mastery
+**Started:** April 2026 | **Status:** Active Learning | **Goal:** Python Mastery | Ended:June 2026
  
 ![Python](https://img.shields.io/badge/Made%20with-Python-blue?logo=python&logoColor=white)
  

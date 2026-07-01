@@ -1,6 +1,6 @@
 """
 ================================================================================
-PYTHON DATA TYPES - STUDY NOTES
+PYTHON FUNDAMENTALS - DATA TYPES
 ================================================================================
 Learning Focus: Understanding Python's type system and working with different data types
 """
@@ -54,41 +54,49 @@ Category Breakdown:
 # --- INTEGER (int) ---
 # Whole numbers without decimal points
 a = 10
-print(type(a))  # Output: <class 'int'>
+print(type(a))
+# Output: <class 'int'>
 
 
 # --- FLOAT (float) ---
 # Numbers with decimal points
 b = 3.15
-print(type(b))  # Output: <class 'float'>
+print(type(b))
+# Output: <class 'float'>
 
 
 # --- STRING (str) ---
 # Text values enclosed in quotes (single or double)
 c = "Hello"
-print(type(c))  # Output: <class 'str'>
+print(type(c))
+# Output: <class 'str'>
 
 d = 'Hi'
-print(type(d))  # Output: <class 'str'>
+print(type(d))
+# Output: <class 'str'>
 
 # Important: Numbers in quotes are strings, not integers!
 e = "1234"
-print(type(e))  # Output: <class 'str'> (NOT int)
+print(type(e))
+# Output: <class 'str'> (NOT int)
 
 
 # --- BOOLEAN (bool) ---
 # Only two values: True or False (must be capitalized!)
 f = True
-print(type(f))  # Output: <class 'bool'>
+print(type(f))
+# Output: <class 'bool'>
 
 g = False
-print(type(g))  # Output: <class 'bool'>
+print(type(g))
+# Output: <class 'bool'>
 
 
 # --- NONETYPE (None) ---
 # Represents "no value" or "not set yet"
 h = None
-print(type(h))  # Output: <class 'NoneType'>
+print(type(h))
+# Output: <class 'NoneType'>
 
 
 # ============================================================================
@@ -97,15 +105,18 @@ print(type(h))  # Output: <class 'NoneType'>
 
 # None = no value at all
 h = None
-print(type(h))  # Output: <class 'NoneType'>
+print(type(h))
+# Output: <class 'NoneType'>
 
 # Empty string = still a string, just with zero characters
 i = ""
-print(type(i))  # Output: <class 'str'>
+print(type(i))
+# Output: <class 'str'>
 
 # Whitespace string = still a string, contains spaces
 j = "  "
-print(type(j))  # Output: <class 'str'>
+print(type(j))
+# Output: <class 'str'>
 
 # Key Insight:
 # None means "nothing exists here"
@@ -122,14 +133,17 @@ You don't need to declare types explicitly (unlike C++ or Java).
 Data types can change during runtime:
 """
 
-x = 10          # x is int
-print(type(x))  # <class 'int'>
+x = 10  # x is int
+print(type(x))
+# Output: <class 'int'>
 
-x = "Python"    # Now x is str
-print(type(x))  # <class 'str'>
+x = "Python"  # Now x is str
+print(type(x))
+# Output: <class 'str'>
 
-x = 3.14        # Now x is float
-print(type(x))  # <class 'float'>
+x = 3.14  # Now x is float
+print(type(x))
+# Output: <class 'float'>
 
 # This is called DYNAMIC TYPING - types can change!
 
@@ -159,6 +173,7 @@ print("\n" + "="*50)
 print("VALUES:")
 print("="*50)
 print(age, height, name, is_student, future_job)
+# Output: 21 175.5 Shehab True None
 
 
 # Display all data types
@@ -166,6 +181,7 @@ print("\n" + "="*50)
 print("DATA TYPES:")
 print("="*50)
 print(type(age), type(height), type(name), type(is_student), type(future_job))
+# Output: <class 'int'> <class 'float'> <class 'str'> <class 'bool'> <class 'NoneType'>
 
 
 # Bonus: Working with lengths
@@ -173,11 +189,36 @@ print("\n" + "="*50)
 print("LENGTH EXAMPLES:")
 print("="*50)
 print("Length of name (character count):", len(name))
-print("Bit length of age:", age.bit_length())  # Number of bits needed to represent the int
+# Output: Length of name (character count): 6
+
+print("Bit length of age:", age.bit_length())
+# Output: Bit length of age: 5
+# Number of bits needed to represent the integer
 
 
 # ============================================================================
-# 6. KEY CONCEPTS SUMMARY
+# 6. TYPE CONVERSION EXAMPLES
+# ============================================================================
+
+# Converting between types
+num_str = "42"
+num_int = int(num_str)
+print(num_int)
+# Output: 42
+
+num_float = float(num_str)
+print(num_float)
+# Output: 42.0
+
+# Converting numbers to strings
+age = 25
+age_str = str(age)
+print("I am " + age_str + " years old")
+# Output: I am 25 years old
+
+
+# ============================================================================
+# 7. KEY CONCEPTS SUMMARY
 # ============================================================================
 """
 DATA TYPES - ESSENTIAL FACTS
@@ -202,11 +243,17 @@ Important notes:
     • "1234" is a string, not an integer
     • None ≠ "" (empty string)
     • bool values must be capitalized: True, False
+
+TYPE CONVERSION FUNCTIONS:
+    • int()    → Convert to integer
+    • float()  → Convert to decimal
+    • str()    → Convert to string
+    • bool()   → Convert to boolean
 """
 
 
 # ============================================================================
-# 7. DAILY LEARNING RECORD
+# 8. DAILY LEARNING RECORD
 # ============================================================================
 """
 What I learned today:
@@ -219,4 +266,6 @@ What I learned today:
 ✓ Boolean values must be capitalized (True/False)
 ✓ How to check string length with len()
 ✓ How to check integer bit length with .bit_length()
+✓ How to convert between different data types
+✓ The difference between type checking and type conversion
 """
