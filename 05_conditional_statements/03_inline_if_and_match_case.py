@@ -2,8 +2,7 @@
 ================================================================================
 PYTHON CONDITIONAL STATEMENTS - PART 3: INLINE IF AND MATCH CASE
 ================================================================================
-Learning Focus: Ternary (inline if) expressions, match-case statements,
-                and applying conditionals to real validation challenges
+Learning Focus: Ternary (inline if) expressions, match-case statements, and applying conditionals to real validation challenges
 """
 
 

@@ -2,8 +2,7 @@
 ================================================================================
 PYTHON CONDITIONAL STATEMENTS - PART 2: NESTED AND ADVANCED CONDITIONS
 ================================================================================
-Learning Focus: Multi-elif chains, nested if statements, logical operators in
-                conditions, and independent if blocks
+Learning Focus: Multi-elif chains, nested if statements, logical operators in conditions, and independent if blocks
 """
 
 

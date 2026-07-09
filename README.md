@@ -126,10 +126,17 @@ python-fundamentals-to-mastery/
 │   └── 03_membership_and_identity_operators.py
 │
 ├── 05_conditional_statements/             ✅ Complete
-│   └── README.md
+│   ├── README.md
+│   ├── 01_if_else_elif.py
+│   ├── 02_nested_and_advanced_conditions.py
+│   └── 03_inline_if_and_match_case.py
 │
-├── 06_loops/                              ⏳ Upcoming
-│   └── README.md
+├── 06_loops/                              ✅ Complete
+│   ├── README.md
+│   ├── 01_for_loops.py
+│   ├── 02_break_continue_pass.py
+│   ├── 03_for_else_and_nested_loops.py
+│   └── 04_while_loops.py
 │
 ├── 07_data_structures/                    ⏳ Upcoming
 │   └── README.md
