@@ -666,5 +666,5 @@ Chapter 5 uses everything learned in this chapter. The comparison and logical op
 <p align="center">
   <a href="../03_numbers/README.md">← Previous Chapter: Python Numbers</a> ·
   <a href="../README.md">Main README</a> ·
-  <a href="../05_conditionals/README.md">Next Chapter: Python Conditionals →</a>
+  <a href="../05_conditional_statements/README.md">Next Chapter: Python Conditionals →</a>
 </p>

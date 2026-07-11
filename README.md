@@ -73,8 +73,8 @@ This order is intentional. Fundamentals come first because everything depends on
 | 02 | Python Strings | ✅ Complete | Methods, slicing, cleaning, search, validation | [Open](02_strings/README.md) |
 | 03 | Python Numbers | ✅ Complete | Arithmetic, rounding, random, validation | [Open](03_numbers/README.md) |
 | 04 | Logic and Operators | ✅ Complete | Boolean, comparison, logical, membership, identity | [Open](04_logic_and_operators/README.md) |
-| 05 | Conditional Statements | ✅ Complete | `if`, `elif`, `else`, inline if, match-case | [Open](/05_conditional_statements/README.md) |
-| 06 | Loops | ⏳ Upcoming | `for`, `while`, `break`, `continue`, nested loops | [Open](06_loops/README.md) |
+| 05 | Conditional Statements | ✅ Complete | `if`, `elif`, `else`, inline if, match-case | [Open](05_conditional_statements/README.md) |
+| 06 | Loops | ✅ Complete | `for`, `while`, `break`, `continue`, nested loops | [Open](06_loops/README.md) |
 | 07 | Data Structures | ⏳ Upcoming | Lists, tuples, sets, dicts, comprehensions | [Open](07_data_structures/README.md) |
 | 08 | Functions | ⏳ Upcoming | Parameters, return, scope, clean functions | [Open](08_functions/README.md) |
 
@@ -85,10 +85,10 @@ This order is intentional. Fundamentals come first because everything depends on
 | Metric | Value |
 |---|---|
 | Total Chapters | 8 |
-| Completed Chapters | 5 |
-| Completed Python Files | 15 |
-| Completed README Files | 6 |
-| Current Chapter | Chapter 6 — Loops |
+| Completed Chapters | 6 |
+| Completed Python Files | 19 |
+| Completed README Files | 7 |
+| Current Chapter | Chapter 7 — Data Structures |
 | Learning Status | Active |
 | Started | April 2026 |
 
@@ -230,7 +230,7 @@ Each chapter includes one integrated mini project that combines all chapter conc
 | 03 | Smart Invoice Calculator | Arithmetic, rounding, `isinstance()`, formatted output |
 | 04 | User Validation Engine | Boolean logic, comparison, membership, identity |
 | 05 | User Registration Validator | Conditionals, inline if, match-case, email and password validation |
-| 06 | Coming soon | Loops, loop control, nested iteration |
+| 06 | Automated Data Quality Report | For-else, nested loops, while loops, SQL query generation |
 | 07 | Coming soon | Lists, dictionaries, comprehensions |
 | 08 | Coming soon | Functions, parameters, return values |
 
@@ -246,10 +246,11 @@ Files:    {number}_{descriptive_name}.py
 Examples:
 
 ```text
-04_logic_and_operators/
-    01_boolean_functions.py
-    02_comparison_and_logical_operators.py
-    03_membership_and_identity_operators.py
+06_loops/
+    01_for_loops.py
+    02_break_continue_pass.py
+    03_for_else_and_nested_loops.py
+    04_while_loops.py
 ```
 
 Rules:

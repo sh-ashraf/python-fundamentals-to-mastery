@@ -630,5 +630,5 @@ Chapter 2 builds directly on this foundation. Since strings are introduced in Ch
 
 <p align="center">
   <a href="../README.md">Main README</a> ·
-  <a href="../02_strings/README.md">Next Chapter: Python Strings →</a>
+  <a href="../02_strings/Readme.md">Next Chapter: Python Strings →</a>
 </p>

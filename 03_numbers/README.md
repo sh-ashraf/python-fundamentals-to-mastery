@@ -607,7 +607,7 @@ Chapter 4 introduces boolean logic, which depends directly on the numeric skills
 </p>
 
 <p align="center">
-  <a href="../02_strings/README.md">← Previous Chapter: Python Strings</a> ·
+  <a href="../02_strings/Readme.md">← Previous Chapter: Python Strings</a> ·
   <a href="../README.md">Main README</a> ·
   <a href="../04_logic_and_operators/README.md">Next Chapter: Python Logic and Operators →</a>
 </p>
