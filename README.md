@@ -1,4 +1,4 @@
-# Python Fundamentals to Mastery
+<h1 align="center"> Python Fundamentals to Mastery </h1>
 
 <p align="center">
   <strong>A structured, beginner-friendly Python course repository designed to take learners from core fundamentals to confident problem-solving through documented lessons, practice challenges, and mini projects.</strong>
